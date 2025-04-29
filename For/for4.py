@@ -1,7 +1,7 @@
 # imprimir tabla de multuplicar de cualquier numero
 
 def TablaMul(num):
-    for i in range(11):
+    for i in range(1, 13):
         resultado = num * i
         print(f"{num} * {i} = {resultado}")
     
