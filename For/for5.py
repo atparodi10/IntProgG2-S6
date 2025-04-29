@@ -7,12 +7,11 @@ def ContarNum(num):
 
 
 def main():
-    num = int(input("Ingresa el número hasta donde quiere que llegue su contador: "))
-    while True:
-        if num > 0:
-            ContarNum(num)
-            break
-        else:
+    num = -1
+    
+    while num <= 0:
+        num = int(input("Ingresa el número hasta donde quiere que llegue su contador: "))
+        if num <= 0:
             print("Ingresa un numero positivo.")
-
+        ContarNum(num)
 main()
