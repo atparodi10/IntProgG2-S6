@@ -1,6 +1,6 @@
 def mostrarLetra(numero):
-    for i in range(numero):
-        print(f"a"*numero)
+    for i in range(1, numero+1):
+        print(f"a"*i)
     
     
 def main():
