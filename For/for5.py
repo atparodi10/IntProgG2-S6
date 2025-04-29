@@ -13,5 +13,5 @@ def main():
         num = int(input("Ingresa el número hasta donde quiere que llegue su contador: "))
         if num <= 0:
             print("Ingresa un numero positivo.")
-        ContarNum(num)
+    ContarNum(num)
 main()
